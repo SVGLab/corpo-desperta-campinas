@@ -1,4 +1,4 @@
-import salizaImage from "@/assets/saliza-serodio-portrait.jpg";
+const salizaImage = "/lovable-uploads/0722d406-a9c0-42cc-9706-36d5673b317e.png";
 
 const SalizaSection = () => {
   return (
