@@ -18,7 +18,24 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'heading': ['Playfair Display', 'Georgia', 'serif'],
+				'body': ['Montserrat', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
+			},
 			colors: {
+				/* Brand specific colors */
+				'cream': {
+					light: 'hsl(var(--cream-light))',
+				},
+				'peach': {
+					light: 'hsl(var(--peach-light))',
+				},
+				'terracota': {
+					soft: 'hsl(var(--terracota-soft))',
+					main: 'hsl(var(--terracota-main))',
+				},
+				
+				/* Semantic colors using design system */
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',

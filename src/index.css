@@ -2,41 +2,55 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+/* Corpo S/A Campinas Design System - Paleta Terracota Elegante
 All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Brand Colors - Terracota Palette */
+    --cream-light: 27 100% 96%;        /* #FFF5ED - Bege creme suave */
+    --peach-light: 27 85% 88%;         /* #FDDCC4 - Pêssego claro */
+    --terracota-soft: 27 40% 64%;      /* #CC9A7C - Terracota suave */
+    --terracota-main: 18 55% 40%;      /* #A04A2E - Marrom terracota */
+    --text-dark: 0 0% 20%;             /* #333333 - Cinza escuro */
+    
+    /* Semantic Design System */
+    --background: var(--cream-light);
+    --foreground: var(--text-dark);
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: var(--text-dark);
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: var(--text-dark);
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: var(--terracota-main);
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: var(--terracota-soft);
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: var(--peach-light);
+    --muted-foreground: var(--text-dark);
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: var(--terracota-soft);
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: var(--terracota-soft);
+    --input: var(--peach-light);
+    --ring: var(--terracota-main);
 
     --radius: 0.5rem;
+    
+    /* Custom gradients and shadows */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--terracota-main)), hsl(18 65% 35%));
+    --shadow-elegant: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --shadow-soft: 0 2px 4px rgba(0, 0, 0, 0.05);
+    --transition-smooth: all 0.3s ease;
 
     --sidebar-background: 0 0% 98%;
 
@@ -101,5 +115,32 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  .font-heading {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+  
+  .font-body {
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+}
+
+@layer components {
+  .elegant-shadow {
+    box-shadow: var(--shadow-elegant);
+  }
+  
+  .soft-shadow {
+    box-shadow: var(--shadow-soft);
+  }
+  
+  .smooth-transition {
+    transition: var(--transition-smooth);
+  }
+  
+  .hero-gradient {
+    background: var(--gradient-hero);
   }
 }
