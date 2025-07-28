@@ -5,7 +5,7 @@ const MethodSection = () => {
     title: "Drenagem Linfática: Método Saliza Serodio",
     description: "Resultado visível em 45 minutos"
   }, {
-    title: "TÉCNICAS 100% MANUAIS",
+    title: "Técnicas manuais com resultados comprovados",
     description: "O toque que nenhuma máquina alcança"
   }, {
     title: "PERSONALIZAÇÃO TOTAL",
