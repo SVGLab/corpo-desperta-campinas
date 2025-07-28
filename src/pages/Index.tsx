@@ -2,7 +2,7 @@ import HeroSection from "@/components/HeroSection";
 import ProofSection from "@/components/ProofSection";
 import MethodSection from "@/components/MethodSection";
 import DiscoverySection from "@/components/DiscoverySection";
-import SalizaSection from "@/components/SalizaSection";
+
 import TestimonialsVideoSection from "@/components/TestimonialsVideoSection";
 import FinalCtaSection from "@/components/FinalCtaSection";
 import LocationSection from "@/components/LocationSection";
@@ -16,7 +16,7 @@ const Index = () => {
       <TestimonialsVideoSection />
       <MethodSection />
       <DiscoverySection />
-      <SalizaSection />
+      
       <FinalCtaSection />
       <LocationSection />
       <Footer />
