@@ -13,19 +13,18 @@ const ProofSection = () => {
         
         {/* Testimonial */}
         <div className="max-w-4xl mx-auto text-center">
-          <div className="flex justify-center mb-4">
-            {[...Array(5)].map((_, i) => (
-              <Star key={i} className="w-6 h-6 fill-yellow-400 text-yellow-400" />
-            ))}
-          </div>
-          
-          <blockquote className="text-xl md:text-2xl lg:text-3xl font-heading italic text-foreground mb-6 leading-relaxed">
-            "Em 8 sessões, perdi 12cm. Mas o melhor foi voltar a me sentir mulher"
+          <blockquote className="text-lg md:text-xl lg:text-2xl font-body text-foreground mb-6 leading-relaxed">
+            "Há 16 anos descobri que nossas mãos têm o poder de despertar o que as máquinas não alcançam. Não prometemos milagres - entregamos resultados reais através do toque personalizado. Cada mulher é única, cada corpo conta uma história. Por isso desenvolvemos um método que transforma de verdade: você sai mais leve na primeira sessão e descobre que a mudança externa desperta algo muito maior dentro de você. Não vendemos procedimentos, despertamos a beleza que já existe. E agora é a vez de Campinas viver essa transformação."
           </blockquote>
           
-          <cite className="text-base md:text-lg font-medium text-muted-foreground">
-            - Juliana M., 39 anos
-          </cite>
+          <div className="border-l-4 border-accent pl-6 max-w-md mx-auto">
+            <cite className="text-base md:text-lg font-bold text-foreground block mb-1">
+              Saliza Seródio
+            </cite>
+            <cite className="text-sm md:text-base font-medium text-muted-foreground">
+              Fundadora e CEO da Corpo S/A
+            </cite>
+          </div>
         </div>
       </div>
     </section>
