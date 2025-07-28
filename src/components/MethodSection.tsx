@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const MethodSection = () => {
   const methods = [{
-    title: "Drenagem Linfática: Método Saliza Serodio",
+    title: "Para cada corpo, um despertar",
     description: "Resultado visível em 45 minutos"
   }, {
     title: "TÉCNICAS 100% MANUAIS",
