@@ -10,9 +10,9 @@ const ProofSection = () => {
             {/* Content */}
             <div className="flex flex-col justify-center items-center">
               <div>
-                <blockquote className="text-sm md:text-base lg:text-lg font-body mb-6 leading-relaxed max-w-3xl" style={{
+                <blockquote className="text-base md:text-lg lg:text-xl font-body mb-6 leading-relaxed max-w-3xl" style={{
                 color: '#8B4513'
-              }}>"Há quase 20 anos, minhas mãos transformam mulheres como você: cheias de beleza pra despertar! Meu método respeita o SEU momento e acelera os SEUS resultados. Você vai sair mais leve já na primeira sessão. Vim pessoalmente para Campinas porque chegou a SUA hora de despertar."</blockquote>
+              }}>"Há quase <strong>20 anos</strong>, minhas mãos <strong>transformam</strong> mulheres como você: cheias de beleza pra <strong>despertar</strong>! Meu método respeita o <strong>SEU momento</strong> e acelera os <strong>SEUS resultados</strong>. Você vai sair mais leve já na <strong>primeira sessão</strong>. Vim pessoalmente para Campinas porque chegou a <strong>SUA hora</strong> de <strong>despertar</strong>."</blockquote>
                 
                 <Button 
                   variant="default" 
