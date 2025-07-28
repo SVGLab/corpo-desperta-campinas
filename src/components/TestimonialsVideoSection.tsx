@@ -7,7 +7,7 @@ const TestimonialsVideoSection = () => {
             Milhares de mulheres transformadas
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Uma estética única, com resultados rápidos, respeitando o momento de cada mulher.
+            São quase 20 anos despertando todo tipo de beleza. Nossa estética traz resultados rápidos para o corpo e duradouros para o seu bem estar.
           </p>
         </div>
         
