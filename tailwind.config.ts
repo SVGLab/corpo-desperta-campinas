@@ -19,7 +19,7 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'heading': ['Playfair Display', 'Georgia', 'serif'],
+				'heading': ['Montserrat', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
 				'body': ['Montserrat', '-apple-system', 'BlinkMacSystemFont', 'sans-serif'],
 			},
 			colors: {
