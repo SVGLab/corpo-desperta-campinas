@@ -11,14 +11,28 @@ const TestimonialsVideoSection = () => {
           {/* Primeiro vídeo */}
           <div className="relative">
             <div className="aspect-video rounded-lg overflow-hidden elegant-shadow">
-              <iframe src="https://www.youtube.com/embed/WNda-2xBpZw?autoplay=1&mute=1" title="Depoimento de Cliente 1" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="w-full h-full"></iframe>
+              <iframe src="https://www.youtube.com/embed/Jz0S9HE-BOg" title="Depoimento de Cliente 1" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="w-full h-full"></iframe>
             </div>
           </div>
           
           {/* Segundo vídeo */}
           <div className="relative">
             <div className="aspect-video rounded-lg overflow-hidden elegant-shadow">
-              <iframe src="https://www.youtube.com/embed/DaCHYm1unwY" title="Depoimento de Cliente 2" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="w-full h-full"></iframe>
+              <iframe src="https://www.youtube.com/embed/9AR8quRKICs" title="Depoimento de Cliente 2" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="w-full h-full"></iframe>
+            </div>
+          </div>
+          
+          {/* Terceiro vídeo */}
+          <div className="relative">
+            <div className="aspect-video rounded-lg overflow-hidden elegant-shadow">
+              <iframe src="https://www.youtube.com/embed/WNda-2xBpZw?autoplay=1&mute=1" title="Depoimento de Cliente 3" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="w-full h-full"></iframe>
+            </div>
+          </div>
+          
+          {/* Quarto vídeo */}
+          <div className="relative">
+            <div className="aspect-video rounded-lg overflow-hidden elegant-shadow">
+              <iframe src="https://www.youtube.com/embed/DaCHYm1unwY" title="Depoimento de Cliente 4" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="w-full h-full"></iframe>
             </div>
           </div>
         </div>
