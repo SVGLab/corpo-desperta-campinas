@@ -15,7 +15,7 @@ const ProofSection = () => {
                   size="lg"
                   className="mb-6 px-8 py-4 text-lg"
                 >
-                  Vem despertar comigo
+                  QUERO SABER DE TUDO
                 </Button>
                 
                 <div className="mt-4">
