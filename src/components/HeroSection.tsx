@@ -6,7 +6,6 @@ const HeroSection = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img src={heroImage} alt="Tratamento facial profissional" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 hero-gradient opacity-90"></div>
       </div>
       
       {/* Content */}
