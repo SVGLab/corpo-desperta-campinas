@@ -9,7 +9,7 @@ const FinalCtaSection = () => {
   ];
 
   return (
-    <section className="py-12 bg-primary text-primary-foreground">
+    <section className="py-6 md:py-12 bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 text-center">
         <h2 className="font-heading text-2xl md:text-3xl lg:text-4xl font-bold mb-6">
           Pronta para despertar<br />sua beleza?

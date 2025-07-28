@@ -4,7 +4,7 @@ import { MapPin } from "lucide-react";
 
 const LocationSection = () => {
   return (
-    <section className="py-12 bg-muted">
+    <section className="py-6 md:py-12 bg-muted">
       <div className="container mx-auto px-4">
         <Card className="max-w-4xl mx-auto elegant-shadow border-accent/30">
           <CardHeader className="text-center">

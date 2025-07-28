@@ -1,7 +1,7 @@
 import { Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 const ProofSection = () => {
-  return <section className="py-12" style={{backgroundColor: '#F4E6D8'}}>
+  return <section className="py-6 md:py-12" style={{backgroundColor: '#F4E6D8'}}>
       <div className="container mx-auto px-4 flex justify-center">
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex flex-col items-center">

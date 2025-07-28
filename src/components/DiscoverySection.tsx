@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const DiscoverySection = () => {
   return (
-    <section className="py-12 bg-background">
+    <section className="py-6 md:py-12 bg-background">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto text-center">
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8">
