@@ -13,6 +13,14 @@ const LocationSection = () => {
             </CardTitle>
           </CardHeader>
           
+          <div className="px-6 mb-6">
+            <img 
+              src="/lovable-uploads/0f582084-dd56-4bb5-85c9-390f1c486fec.png" 
+              alt="Vista de Campinas" 
+              className="w-full h-48 md:h-64 object-cover rounded-lg elegant-shadow"
+            />
+          </div>
+          
           <CardContent className="text-center">
             <div className="flex items-center justify-center gap-3 mb-4">
               <MapPin className="w-5 h-5 text-primary" />
