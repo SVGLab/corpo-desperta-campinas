@@ -29,7 +29,7 @@ const LocationSection = () => {
               variant="outline" 
               size="lg"
               onClick={() => window.open('https://maps.google.com/?q=Av.+Orosimbo+Maia+430+Vila+Itapura+Campinas', '_blank')}
-              className="text-primary border-primary hover:bg-primary hover:text-primary-foreground"
+              className="font-heading"
             >
               VER NO GOOGLE MAPS
             </Button>
