@@ -1,31 +1,40 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const MethodSection = () => {
-  const methods = [{
-    title: "Drenagem Linfática: Método Saliza Serodio",
-    description: "Transformação que você vê e sente"
-  }, {
-    title: "Técnicas manuais com resultados comprovados",
-    description: "O toque que nenhuma máquina alcança"
-  }, {
-    title: "Para cada beleza, um despertar sob medida",
-    description: "Uma estética que cabe na sua vida"
-  }];
-  return <section className="py-20" style={{backgroundColor: '#98361F'}}>
+  const methods = [
+    {
+      title: "Drenagem Linfática: Método Saliza Serodio",
+      description: "Transformação que você vê e sente"
+    }, 
+    {
+      title: "Técnicas manuais com resultados comprovados",
+      description: "O toque que nenhuma máquina alcança"
+    }, 
+    {
+      title: "Para cada beleza, um despertar sob medida",
+      description: "Uma estética que cabe na sua vida"
+    }
+  ];
+
+  return (
+    <section className="py-12 bg-primary">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold mb-6" style={{color: '#FEF9ED'}}>Por que a Corpo S/A é única:</h2>
+        <div className="text-center mb-8">
+          <h2 className="font-heading text-2xl md:text-3xl lg:text-4xl font-bold mb-4 text-primary-foreground">
+            Por que a Corpo S/A é única:
+          </h2>
         </div>
         
-        <div className="grid md:grid-cols-3 gap-8 mb-12">
-          {methods.map((method, index) => <Card key={index} className="text-center elegant-shadow border-accent/20 hover:border-accent/40 smooth-transition">
-              <CardHeader className="pb-4">
-                <CardTitle className="font-heading text-xl md:text-2xl font-semibold text-foreground leading-tight">
+        <div className="grid md:grid-cols-3 gap-6 mb-8">
+          {methods.map((method, index) => (
+            <Card key={index} className="text-center elegant-shadow border-accent/20 hover:border-accent/40 smooth-transition">
+              <CardHeader className="pb-3">
+                <CardTitle className="font-heading text-lg md:text-xl font-semibold text-foreground leading-tight">
                   {method.title}
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-base md:text-lg text-muted-foreground leading-relaxed mb-4">
+                <p className="text-sm md:text-base text-muted-foreground leading-relaxed mb-3">
                   {method.description}
                 </p>
                 {index === 0 && (
@@ -56,15 +65,22 @@ const MethodSection = () => {
                   </div>
                 )}
               </CardContent>
-            </Card>)}
+            </Card>
+          ))}
         </div>
         
         <div className="text-center">
-          <Button variant="ctaSecondary" size="lg" onClick={() => window.open('https://api.whatsapp.com/send/?phone=%2B5532999171361&text=Olá!+Quero+conhecer+o+método+exclusivo+da+Corpo+SA', '_blank')}>
+          <Button 
+            variant="outline" 
+            size="lg" 
+            onClick={() => window.open('https://api.whatsapp.com/send/?phone=%2B5532999171361&text=Olá!+Quero+conhecer+o+método+exclusivo+da+Corpo+SA', '_blank')}
+            className="bg-primary-foreground text-primary border-primary-foreground hover:bg-primary-foreground/90"
+          >
             QUERO CONHECER O MÉTODO
           </Button>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
 export default MethodSection;
