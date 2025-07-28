@@ -7,7 +7,7 @@ const TestimonialsVideoSection = () => {
             Depoimentos de Clientes
           </h2>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Veja o que nossas clientes têm a dizer sobre sua transformação
+            Uma estética única, com resultados rápidos, respeitando o momento de cada mulher.
           </p>
         </div>
         
