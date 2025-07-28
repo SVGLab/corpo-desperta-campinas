@@ -9,17 +9,17 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-md hover:shadow-lg",
+        default: "bg-[#98361F] text-[#FEF9ED] hover:bg-[#98361F]/90 shadow-md hover:shadow-lg",
         destructive:
-          "bg-destructive text-destructive-foreground hover:bg-destructive/90 shadow-md hover:shadow-lg",
+          "bg-[#98361F] text-[#FEF9ED] hover:bg-[#98361F]/90 shadow-md hover:shadow-lg",
         outline:
-          "border-2 border-primary bg-transparent text-primary hover:bg-primary hover:text-primary-foreground shadow-md hover:shadow-lg",
+          "border-2 border-[#98361F] bg-[#98361F] text-[#FEF9ED] hover:bg-[#98361F]/90 shadow-md hover:shadow-lg",
         secondary:
-          "bg-secondary text-secondary-foreground hover:bg-secondary/90 shadow-md hover:shadow-lg",
-        ghost: "hover:bg-accent hover:text-accent-foreground",
-        link: "text-primary underline-offset-4 hover:underline",
-        cta: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg hover:shadow-xl transform hover:scale-105",
-        ctaSecondary: "bg-secondary text-secondary-foreground hover:bg-secondary/90 shadow-lg hover:shadow-xl transform hover:scale-105",
+          "bg-[#98361F] text-[#FEF9ED] hover:bg-[#98361F]/90 shadow-md hover:shadow-lg",
+        ghost: "bg-[#98361F] text-[#FEF9ED] hover:bg-[#98361F]/90",
+        link: "bg-[#98361F] text-[#FEF9ED] underline-offset-4 hover:underline",
+        cta: "bg-[#98361F] text-[#FEF9ED] hover:bg-[#98361F]/90 shadow-lg hover:shadow-xl transform hover:scale-105",
+        ctaSecondary: "bg-[#98361F] text-[#FEF9ED] hover:bg-[#98361F]/90 shadow-lg hover:shadow-xl transform hover:scale-105",
       },
       size: {
         default: "h-10 px-4 py-2",
