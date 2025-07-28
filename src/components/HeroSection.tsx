@@ -19,7 +19,7 @@ const HeroSection = () => {
             onClick={() => window.open('https://api.whatsapp.com/send/?phone=%2B5532999171361&text=Oi!+Vi+que+a+Corpo+SA+chegou+em+Campinas!+Quero+agendar+minha+avaliação+gratuita', '_blank')} 
             className="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-50 elegant-shadow animate-pulse hover:animate-none"
           >
-            Saiba primeiro
+            Agende sua avaliação gratuita
           </Button>
         </div>
       </div>
