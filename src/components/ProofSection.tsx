@@ -15,7 +15,7 @@ const ProofSection = () => {
             {/* Image */}
             <div className="order-2 lg:order-1">
               <div className="relative">
-                <img src="/lovable-uploads/4378b05e-12d0-4217-bf54-db619d4bc72f.png" alt="Saliza Seródio aplicando tratamento" className="w-full h-[300px] md:h-[400px] object-cover rounded-lg elegant-shadow" />
+                <img src="/lovable-uploads/4378b05e-12d0-4217-bf54-db619d4bc72f.png" alt="Saliza Seródio aplicando tratamento" className="w-full object-cover rounded-lg elegant-shadow" />
               </div>
             </div>
             
