@@ -31,7 +31,7 @@ const ResultsCarouselSection = () => {
           </h3>
         </div>
 
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto overflow-hidden">
           <Carousel
             opts={{
               align: "start",
@@ -39,23 +39,21 @@ const ResultsCarouselSection = () => {
             }}
             className="w-full"
           >
-            <CarouselContent>
+            <CarouselContent className="-ml-2 md:-ml-4">
               {transformationImages.map((image, index) => (
-                <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                  <div className="p-2">
-                    <div className="aspect-square rounded-lg overflow-hidden elegant-shadow">
-                      <img
-                        src={image}
-                        alt={`Transformação ${index + 1}`}
-                        className="w-full h-full object-cover"
-                      />
-                    </div>
+                <CarouselItem key={index} className="pl-2 md:pl-4 basis-4/5 md:basis-1/2 lg:basis-1/3">
+                  <div className="aspect-square rounded-lg overflow-hidden elegant-shadow">
+                    <img
+                      src={image}
+                      alt={`Transformação ${index + 1}`}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious />
-            <CarouselNext />
+            <CarouselPrevious className="hidden md:flex" />
+            <CarouselNext className="hidden md:flex" />
           </Carousel>
         </div>
 
