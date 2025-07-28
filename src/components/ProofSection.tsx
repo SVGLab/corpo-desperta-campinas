@@ -14,6 +14,7 @@ const ProofSection = () => {
                   variant="default"
                   size="lg"
                   className="mb-6 px-8 py-4 text-lg"
+                  onClick={() => window.open('https://api.whatsapp.com/send/?phone=%2B5532999171361&text=Oi!+Vi+que+a+Corpo+SA+chegou+em+Campinas!+Quero+agendar+minha+avalia%C3%A7%C3%A3o+gratuita', '_blank')}
                 >
                   QUERO SABER DE TUDO
                 </Button>
