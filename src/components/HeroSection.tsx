@@ -7,11 +7,11 @@ const HeroSection = () => {
     <section className="relative w-full">
       <div className="relative w-full max-w-[1920px] mx-auto">
         {/* Mobile optimized image with better aspect ratio */}
-        <div className="w-full h-[70vh] md:h-auto">
+        <div className="w-full h-screen md:h-auto">
           <img 
             src={heroImage} 
             alt="Chegamos a Campinas pra despertar sua beleza" 
-            className="w-full h-full md:h-auto object-cover object-center" 
+            className="w-full h-full md:h-auto object-cover object-top" 
           />
         </div>
         
