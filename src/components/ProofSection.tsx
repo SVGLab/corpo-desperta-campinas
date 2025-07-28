@@ -17,7 +17,7 @@ const ProofSection = () => {
             {/* Content */}
             <div className="order-2 lg:order-2 flex flex-col justify-between h-full">
               <div>
-                <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold mb-8" style={{color: '#8B4513'}}>
+                <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold mb-8" style={{color: '#98361F'}}>
                   Desperta, Mulher!
                 </h2>
                 
