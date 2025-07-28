@@ -5,7 +5,7 @@ const ProofSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-foreground mb-8">
-            Desprta, mulher!
+            Desperta, mulher!
           </h2>
         </div>
         
