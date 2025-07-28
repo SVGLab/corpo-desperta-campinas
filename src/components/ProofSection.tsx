@@ -24,7 +24,7 @@ const ProofSection = () => {
                     <img 
                       src="/lovable-uploads/eafc9b2d-3dba-450b-b96a-31ddf195c35d.png" 
                       alt="Assinatura Saliza Seródio" 
-                      className="w-40 h-auto"
+                      className="w-60 h-auto"
                     />
                   </div>
                 </div>
