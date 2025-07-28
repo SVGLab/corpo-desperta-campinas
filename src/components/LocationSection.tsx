@@ -21,11 +21,8 @@ const LocationSection = () => {
               </h3>
             </div>
             
-            <p className="text-base md:text-lg text-muted-foreground mb-6">
-              Localização premium no coração de Campinas
-            </p>
             
-            <Button 
+            <Button
               variant="outline" 
               size="lg"
               onClick={() => window.open('https://maps.google.com/?q=Av.+Orosimbo+Maia+430+Vila+Itapura+Campinas', '_blank')}
