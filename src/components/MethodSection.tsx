@@ -33,7 +33,7 @@ const MethodSection = () => {
                     <img 
                       src="/lovable-uploads/2b72531c-2a6e-4a80-b3a9-b162bbcb0440.png" 
                       alt="Resultados na primeira sessão" 
-                      className="w-full max-w-[200px] h-auto mx-auto rounded-lg"
+                      className="w-full h-auto mx-auto rounded-lg"
                     />
                   </div>
                 )}
