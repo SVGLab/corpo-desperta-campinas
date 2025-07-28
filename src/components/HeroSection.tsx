@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-const heroImage = "/lovable-uploads/e01b6ac9-3bb4-4e07-afb5-b224150f1b5b.png";
+const heroImage = "/lovable-uploads/e6266964-6342-4176-84b6-a8283996ca86.png";
 const HeroSection = () => {
   return <section className="relative w-full">
       {/* Background Image */}
