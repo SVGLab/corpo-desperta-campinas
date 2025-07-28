@@ -25,26 +25,20 @@ const MethodSection = () => {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+                <p className="text-base md:text-lg text-muted-foreground leading-relaxed mb-4">
                   {method.description}
                 </p>
+                {index === 0 && (
+                  <div className="mt-4">
+                    <img 
+                      src="/lovable-uploads/2b72531c-2a6e-4a80-b3a9-b162bbcb0440.png" 
+                      alt="Resultados na primeira sessão" 
+                      className="w-full max-w-[200px] h-auto mx-auto rounded-lg"
+                    />
+                  </div>
+                )}
               </CardContent>
             </Card>)}
-        </div>
-        
-        {/* Results Section */}
-        <div className="mb-12">
-          <Card className="elegant-shadow border-accent/20">
-            <CardContent className="p-0">
-              <div className="relative">
-                <img 
-                  src="/lovable-uploads/2b72531c-2a6e-4a80-b3a9-b162bbcb0440.png" 
-                  alt="Resultados na primeira sessão - antes e depois do tratamento" 
-                  className="w-full h-auto rounded-lg"
-                />
-              </div>
-            </CardContent>
-          </Card>
         </div>
         
         <div className="text-center">
