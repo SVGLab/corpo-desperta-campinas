@@ -23,7 +23,7 @@ const DiscoverySection = () => {
               <Button 
                 variant="cta" 
                 size="lg"
-                onClick={() => window.open('https://api.whatsapp.com/send/?phone=%2B5532999171361&text=Olá!+Quero+descobrir+qual+procedimento+combina+comigo', '_blank')}
+                onClick={() => window.open('https://preview--corpo-quiz-magico.lovable.app/', '_blank')}
                 className="mt-4"
               >
                 DESCOBRIR MEU PROCEDIMENTO
