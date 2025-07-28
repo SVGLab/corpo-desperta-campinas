@@ -16,15 +16,7 @@ const HeroSection = () => {
         </div>
         
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
-          <Button 
-            variant="cta" 
-            size="lg"
-            onClick={() => window.open('https://api.whatsapp.com/send/?phone=%2B5532999171361&text=Oi!+Vi+que+a+Corpo+SA+chegou+em+Campinas!+Quero+agendar+minha+avaliação+gratuita', '_blank')} 
-            className="fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:top-auto md:bottom-6 md:left-auto md:right-6 md:transform-none z-50 elegant-shadow text-sm md:text-base px-6 md:px-8 py-3 md:py-4"
-            style={{ backgroundColor: '#FF8C42' }}
-          >
-            Agende sua avaliação gratuita
-          </Button>
+          {/* Botão flutuante removido */}
         </div>
       </div>
     </section>
