@@ -1,3 +1,5 @@
+import { Button } from "@/components/ui/button";
+
 const TestimonialsVideoSection = () => {
   return (
     <section className="py-12 bg-background">
@@ -39,6 +41,16 @@ const TestimonialsVideoSection = () => {
               ></iframe>
             </div>
           </div>
+        </div>
+        
+        <div className="text-center mt-8">
+          <Button 
+            variant="default" 
+            size="lg"
+            className="px-8 py-4 text-lg"
+          >
+            TOQUE PARA DESPERTAR
+          </Button>
         </div>
       </div>
     </section>
