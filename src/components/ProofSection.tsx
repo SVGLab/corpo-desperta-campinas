@@ -28,7 +28,7 @@ const ProofSection = () => {
               <blockquote className="text-base md:text-lg lg:text-xl font-body text-foreground mb-6 leading-relaxed">"Há quase 20 anos, minhas mãos transformam mulheres como você: cheia de beleza pra despertar! Meu método respeita o SEU momento e acelera os SEUS resultados. Você vai sair mais leve já na primeira sessão. Vim pessoalmente para Campinas porque chegou a SUA hora de despertar."</blockquote>
               
               <div className="border-l-4 border-accent pl-6">
-                <cite className="text-sm md:text-base font-bold text-foreground block mb-1">
+                <cite className="text-base md:text-lg font-bold text-foreground block mb-1">
                   Saliza Seródio
                 </cite>
                 <cite className="text-xs md:text-sm font-medium text-muted-foreground">
