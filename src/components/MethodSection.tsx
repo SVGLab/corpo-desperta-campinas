@@ -37,6 +37,15 @@ const MethodSection = () => {
                     />
                   </div>
                 )}
+                {index === 1 && (
+                  <div className="mt-4">
+                    <img 
+                      src="/lovable-uploads/d8d1f12a-679a-4948-a2b8-11410ad57e52.png" 
+                      alt="Técnicas 100% manuais" 
+                      className="w-full h-auto mx-auto rounded-lg"
+                    />
+                  </div>
+                )}
               </CardContent>
             </Card>)}
         </div>
