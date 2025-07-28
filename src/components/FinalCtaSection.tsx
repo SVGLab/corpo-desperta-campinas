@@ -3,7 +3,7 @@ import { Check } from "lucide-react";
 
 const FinalCtaSection = () => {
   const features = [
-    "Atendimento imediato no WhatsApp",
+    "Atendimento no Whats",
     "Tire suas dúvidas",
     "Agende sua avaliação gratuita"
   ];
