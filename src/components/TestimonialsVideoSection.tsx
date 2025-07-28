@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 const TestimonialsVideoSection = () => {
-  return <section className="py-6 md:py-12 bg-background">
+  return <section className="py-6 md:py-12 bg-muted">{/* Changed from bg-background to bg-muted */}
       <div className="container mx-auto px-4">
         <div className="text-center mb-8">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold mb-4 text-primary">Quem desperta, comprova!</h2>
