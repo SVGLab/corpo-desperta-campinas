@@ -9,7 +9,7 @@ const MethodSection = () => {
     description: "O toque que nenhuma máquina alcança"
   }, {
     title: "Para cada beleza, um despertar sob medida",
-    description: "sob medida"
+    description: "Uma estética que cabe na sua vida"
   }];
   return <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
