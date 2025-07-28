@@ -11,7 +11,7 @@ const ProofSection = () => {
                 <Button 
                   variant="default"
                   size="lg"
-                  className="mb-6"
+                  className="mb-2 px-8 py-4 text-lg"
                 >
                   Desperta, Mulher!
                 </Button>
