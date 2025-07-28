@@ -6,11 +6,11 @@ const ProofSection = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-2 items-start">
             {/* Image */}
-            <div className="order-1 lg:order-1">
+            <div className="order-1 lg:order-1 flex justify-start items-center">
               <img 
                 src="/lovable-uploads/043646fc-68f2-4edc-bd8f-bbe295c048ed.png" 
                 alt="Saliza Seródio aplicando método de drenagem" 
-                className="w-1/3 h-auto shadow-lg mx-auto"
+                className="w-1/3 h-auto shadow-lg"
               />
             </div>
             
