@@ -14,7 +14,12 @@ const ProofSection = () => {
                 color: '#8B4513'
               }}>"Há quase 20 anos, minhas mãos transformam mulheres como você: cheias de beleza pra despertar! Meu método respeita o SEU momento e acelera os SEUS resultados. Você vai sair mais leve já na primeira sessão. Vim pessoalmente para Campinas porque chegou a SUA hora de despertar."</blockquote>
                 
-                <Button variant="default" size="lg" className="mb-6 px-8 py-4 text-lg">
+                <Button 
+                  variant="default" 
+                  size="lg" 
+                  className="mb-6 px-8 py-4 text-lg"
+                  onClick={() => window.open('https://api.whatsapp.com/send/?phone=%2B5532999171361&text=Oi!+Vi+que+a+Corpo+SA+chegou+em+Campinas!+Quero+agendar+minha+avalia%C3%A7%C3%A3o+gratuita', '_blank')}
+                >
                   QUERO FAZER PARTE
                 </Button>
                 
