@@ -6,13 +6,6 @@ const ProofSection = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-2 items-start">
             {/* Image */}
-            <div className="order-1 lg:order-1 flex justify-end items-center mr-4">
-              <img 
-                src="/lovable-uploads/043646fc-68f2-4edc-bd8f-bbe295c048ed.png" 
-                alt="Saliza Seródio aplicando método de drenagem" 
-                className="w-1/3 h-auto shadow-lg"
-              />
-            </div>
             
             {/* Content */}
             <div className="order-2 lg:order-2 flex flex-col justify-between h-full">
