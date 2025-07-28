@@ -2,7 +2,7 @@ import { Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 const ProofSection = () => {
   return <section className="py-16" style={{backgroundColor: '#F4E6D8'}}>
-      <div className="container mx-auto px-1 flex justify-center">
+      <div className="container mx-auto px-1 flex justify-center ml-8">
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-2 items-start">
             {/* Image */}
