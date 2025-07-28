@@ -46,6 +46,15 @@ const MethodSection = () => {
                     />
                   </div>
                 )}
+                {index === 2 && (
+                  <div className="mt-4">
+                    <img 
+                      src="/lovable-uploads/d4988c77-b848-4bea-9ef9-e7604b8f9732.png" 
+                      alt="Personalização total" 
+                      className="w-full h-auto mx-auto rounded-lg"
+                    />
+                  </div>
+                )}
               </CardContent>
             </Card>)}
         </div>
