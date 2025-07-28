@@ -26,9 +26,11 @@ const ProofSection = () => {
               
               <div className="mt-auto">
                 <div className="mb-8">
-                  <cite className="text-2xl md:text-3xl font-bold block mb-2" style={{color: '#8B4513', fontFamily: 'cursive'}}>
-                    Saliza Seródio
-                  </cite>
+                <img 
+                  src="/lovable-uploads/eafc9b2d-3dba-450b-b96a-31ddf195c35d.png" 
+                  alt="Assinatura Saliza Seródio" 
+                  className="w-48 h-auto mb-2"
+                />
                 </div>
                 
                 <Button 
