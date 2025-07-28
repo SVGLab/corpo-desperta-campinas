@@ -8,15 +8,15 @@ const ProofSection = () => {
             {/* Content */}
             <div className="flex flex-col justify-center items-center">
               <div>
+                <blockquote className="text-sm md:text-base lg:text-lg font-body mb-6 leading-relaxed max-w-3xl" style={{color: '#8B4513'}}>"Há quase 20 anos, minhas mãos transformam mulheres como você: cheia de beleza pra despertar! Meu método respeita o SEU momento e acelera os SEUS resultados. Você vai sair mais leve já na primeira sessão. Vim pessoalmente para Campinas porque chegou a SUA hora de despertar."</blockquote>
+                
                 <Button 
                   variant="default"
                   size="lg"
-                  className="mb-2 px-8 py-4 text-lg"
+                  className="mb-6 px-8 py-4 text-lg"
                 >
                   Vem despertar comigo
                 </Button>
-                
-                <blockquote className="text-sm md:text-base lg:text-lg font-body mb-6 leading-relaxed max-w-3xl" style={{color: '#8B4513'}}>"Há quase 20 anos, minhas mãos transformam mulheres como você: cheia de beleza pra despertar! Meu método respeita o SEU momento e acelera os SEUS resultados. Você vai sair mais leve já na primeira sessão. Vim pessoalmente para Campinas porque chegou a SUA hora de despertar."</blockquote>
                 
                 <div className="mt-4">
                   <div className="flex justify-center">
