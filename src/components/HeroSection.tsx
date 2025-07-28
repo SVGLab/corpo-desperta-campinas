@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 
-const heroImage = "/lovable-uploads/e6266964-6342-4176-84b6-a8283996ca86.png";
+const heroImage = "/lovable-uploads/1809f9d2-ee21-4b25-9dc5-7214f50e833e.png";
 
 const HeroSection = () => {
   return (
@@ -8,8 +8,8 @@ const HeroSection = () => {
       <div className="relative w-full max-w-[1920px] mx-auto">
         <img 
           src={heroImage} 
-          alt="Tratamento facial profissional" 
-          className="w-full h-auto max-h-[654px] object-contain" 
+          alt="Chegamos a Campinas pra despertar sua beleza" 
+          className="w-full h-auto object-cover" 
         />
         
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4">
