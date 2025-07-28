@@ -7,13 +7,11 @@ const ProofSection = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             {/* Image */}
             <div className="order-1 lg:order-1">
-              <div className="relative">
-                <img 
-                  src="/lovable-uploads/043646fc-68f2-4edc-bd8f-bbe295c048ed.png" 
-                  alt="Saliza Seródio aplicando método de drenagem" 
-                  className="w-1/3 h-auto shadow-lg mx-auto"
-                />
-              </div>
+              <img 
+                src="/lovable-uploads/043646fc-68f2-4edc-bd8f-bbe295c048ed.png" 
+                alt="Saliza Seródio aplicando método de drenagem" 
+                className="w-1/3 h-auto shadow-lg mx-auto"
+              />
             </div>
             
             {/* Content */}
