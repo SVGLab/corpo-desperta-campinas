@@ -1,11 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-const heroImage = "/lovable-uploads/8035b452-22a3-4b52-8c59-57f2eaabb376.png";
+const heroImage = "/lovable-uploads/e01b6ac9-3bb4-4e07-afb5-b224150f1b5b.png";
 const HeroSection = () => {
-  return <section className="relative flex items-center justify-center">
+  return <section className="relative flex items-center justify-center w-full">
       {/* Background Image */}
-      <div className="w-full">
-        <img src={heroImage} alt="Tratamento facial profissional" className="w-full h-auto" />
+      <div className="w-full max-w-[1920px] mx-auto">
+        <img src={heroImage} alt="Tratamento facial profissional" className="w-full h-auto max-h-[654px] object-contain" />
       </div>
       
       {/* Content */}
