@@ -15,9 +15,8 @@ const DiscoverySection = () => {
             </div>
             
             <div className="flex-1 max-w-lg">
-              <h2 className="font-heading text-2xl md:text-3xl lg:text-4xl font-bold mb-4 leading-tight text-primary">
-                Descubra qual dos nossos procedimentos mais combina com o seu{" "}
-                <span className="text-accent font-bold">despertar</span>
+              <h2 className="font-heading text-xl md:text-2xl lg:text-3xl font-bold mb-4 leading-tight text-primary">
+                Descubra qual dos nossos procedimentos mais combina com o seu despertar
               </h2>
               
               <Button 
