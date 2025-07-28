@@ -73,7 +73,7 @@ const MethodSection = () => {
           <Button 
             variant="outline" 
             size="lg" 
-            onClick={() => window.open('https://api.whatsapp.com/send/?phone=%2B5532999171361&text=Olá!+Quero+conhecer+o+método+exclusivo+da+Corpo+SA', '_blank')}
+            onClick={() => window.open('https://api.whatsapp.com/send/?phone=%2B5532999171361&text=Oi!+Vi+que+a+Corpo+SA+chegou+em+Campinas!+Quero+agendar+minha+avalia%C3%A7%C3%A3o+gratuita', '_blank')}
             className="bg-primary-foreground text-primary border-primary-foreground hover:bg-primary-foreground/90"
           >
             QUERO CONHECER O MÉTODO
