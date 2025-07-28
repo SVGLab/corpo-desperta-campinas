@@ -8,9 +8,13 @@ const ProofSection = () => {
             {/* Content */}
             <div className="flex flex-col justify-center items-center">
               <div>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold mb-6" style={{color: '#98361F'}}>
+                <Button 
+                  variant="default"
+                  size="lg"
+                  className="mb-6"
+                >
                   Desperta, Mulher!
-                </h2>
+                </Button>
                 
                 <blockquote className="text-sm md:text-base lg:text-lg font-body mb-6 leading-relaxed max-w-3xl" style={{color: '#8B4513'}}>"Há quase 20 anos, minhas mãos transformam mulheres como você: cheia de beleza pra despertar! Meu método respeita o SEU momento e acelera os SEUS resultados. Você vai sair mais leve já na primeira sessão. Vim pessoalmente para Campinas porque chegou a SUA hora de despertar."</blockquote>
               </div>
