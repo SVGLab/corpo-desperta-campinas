@@ -21,7 +21,7 @@ const ProofSection = () => {
             
             {/* Content */}
             <div className="order-1 lg:order-2">
-              <blockquote className="text-base md:text-lg lg:text-xl font-body text-foreground mb-6 leading-relaxed">"Há 20 anos descobri que nossas mãos têm o poder de despertar o que as máquinas não alcançam. Cada mulher é única, cada corpo conta uma história. Por isso desenvolvemos um método que transforma de verdade: você sai mais leve na primeira sessão e descobre que a mudança externa desperta algo muito maior dentro de você. E agora é a vez de Campinas viver essa transformação."</blockquote>
+              <blockquote className="text-base md:text-lg lg:text-xl font-body text-foreground mb-6 leading-relaxed">"Descobri há 20 anos: nossas mãos despertam o que máquinas não alcançam. Cada corpo é único, por isso criamos um método que transforma de verdade. Você sai mais leve já na primeira sessão - e descobre que despertar sua beleza exterior acende algo poderoso dentro de você. Campinas, chegou sua vez."</blockquote>
               
               <div className="border-l-4 border-accent pl-6">
                 <cite className="text-sm md:text-base font-bold text-foreground block mb-1">
