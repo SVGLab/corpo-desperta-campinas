@@ -4,6 +4,7 @@ import MethodSection from "@/components/MethodSection";
 import DiscoverySection from "@/components/DiscoverySection";
 import OfferSection from "@/components/OfferSection";
 import SalizaSection from "@/components/SalizaSection";
+import TestimonialsVideoSection from "@/components/TestimonialsVideoSection";
 import FinalCtaSection from "@/components/FinalCtaSection";
 import LocationSection from "@/components/LocationSection";
 import Footer from "@/components/Footer";
@@ -17,6 +18,7 @@ const Index = () => {
       <DiscoverySection />
       <OfferSection />
       <SalizaSection />
+      <TestimonialsVideoSection />
       <FinalCtaSection />
       <LocationSection />
       <Footer />
