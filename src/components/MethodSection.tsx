@@ -8,7 +8,7 @@ const MethodSection = () => {
     title: "Técnicas manuais com resultados comprovados",
     description: "O toque que nenhuma máquina alcança"
   }, {
-    title: "Para cada beleza, um despertar único",
+    title: "Para cada beleza, um despertar sob medida",
     description: "sob medida"
   }];
   return <section className="py-20 bg-background">
