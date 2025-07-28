@@ -29,7 +29,7 @@ const MethodSection = () => {
           {methods.map((method, index) => (
             <Card key={index} className="text-center elegant-shadow border-accent/20 hover:border-accent/40 smooth-transition">
               <CardHeader className="pb-3">
-                <CardTitle className="font-heading text-lg md:text-xl font-semibold text-foreground leading-tight">
+                <CardTitle className="font-heading text-lg md:text-xl font-semibold text-primary leading-tight">
                   {method.title}
                 </CardTitle>
               </CardHeader>
