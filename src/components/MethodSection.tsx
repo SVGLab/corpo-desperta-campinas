@@ -32,6 +32,21 @@ const MethodSection = () => {
             </Card>)}
         </div>
         
+        {/* Results Section */}
+        <div className="mb-12">
+          <Card className="elegant-shadow border-accent/20">
+            <CardContent className="p-0">
+              <div className="relative">
+                <img 
+                  src="/lovable-uploads/2b72531c-2a6e-4a80-b3a9-b162bbcb0440.png" 
+                  alt="Resultados na primeira sessão - antes e depois do tratamento" 
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+        
         <div className="text-center">
           <Button variant="ctaSecondary" size="lg" onClick={() => window.open('https://api.whatsapp.com/send/?phone=%2B5532999171361&text=Olá!+Quero+conhecer+o+método+exclusivo+da+Corpo+SA', '_blank')}>
             QUERO CONHECER O MÉTODO
