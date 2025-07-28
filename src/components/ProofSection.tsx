@@ -1,4 +1,5 @@
 import { Star } from "lucide-react";
+import { Button } from "@/components/ui/button";
 const ProofSection = () => {
   return <section className="py-16 bg-muted">
       <div className="container mx-auto px-4">
@@ -31,6 +32,16 @@ const ProofSection = () => {
                 </cite>
               </div>
             </div>
+          </div>
+          
+          <div className="text-center mt-12">
+            <Button 
+              variant="outline" 
+              size="lg"
+              onClick={() => window.open('https://api.whatsapp.com/send/?phone=%2B5532999171361&text=Oi!+Quero+saber+mais+sobre+os+tratamentos', '_blank')}
+            >
+              Quero saber mais
+            </Button>
           </div>
         </div>
       </div>
