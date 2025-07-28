@@ -26,7 +26,7 @@ const ResultsCarouselSection = () => {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-primary mb-4">
             O corpo sente o toque.
           </h2>
-          <h3 className="text-2xl md:text-3xl lg:text-4xl font-heading font-bold text-primary">
+          <h3 className="text-xl md:text-2xl lg:text-3xl font-heading font-medium text-primary">
             Os olhos veem o resultado.
           </h3>
         </div>
