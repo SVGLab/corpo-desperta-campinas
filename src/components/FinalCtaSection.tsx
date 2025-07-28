@@ -19,7 +19,7 @@ const FinalCtaSection = () => {
           variant="outline" 
           size="lg" 
           className="mb-6 bg-primary-foreground text-primary border-primary-foreground hover:bg-primary-foreground/90"
-          onClick={() => window.open('https://api.whatsapp.com/send/?phone=%2B5532999171361&text=Olá!+Gostaria+de+tirar+dúvidas+sobre+os+tratamentos', '_blank')}
+          onClick={() => window.open('https://api.whatsapp.com/send/?phone=%2B5532999171361&text=Oi!+Vi+que+a+Corpo+SA+chegou+em+Campinas!+Quero+agendar+minha+avalia%C3%A7%C3%A3o+gratuita', '_blank')}
         >
           FALAR COM ESPECIALISTA AGORA
         </Button>
