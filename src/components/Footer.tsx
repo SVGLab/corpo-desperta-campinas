@@ -11,9 +11,14 @@ const Footer = () => {
             Av. Orosimbo Maia, 430 | Vila Itapura | Campinas-SP
           </p>
           
-          <p className="text-sm md:text-base font-body font-medium">
-            @corposacampinas
-          </p>
+          <a 
+            href="https://www.instagram.com/corpo.s.a.oficial/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-sm md:text-base font-body font-medium hover:opacity-80 transition-opacity inline-block"
+          >
+            @corpo.s.a.oficial
+          </a>
         </div>
       </div>
     </footer>
