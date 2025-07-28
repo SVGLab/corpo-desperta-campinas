@@ -11,7 +11,7 @@ const ProofSection = () => {
                 <img 
                   src="/lovable-uploads/043646fc-68f2-4edc-bd8f-bbe295c048ed.png" 
                   alt="Saliza Seródio aplicando método de drenagem" 
-                  className="w-1/3 h-auto rounded-lg shadow-lg mx-auto"
+                  className="w-1/3 h-auto shadow-lg mx-auto"
                 />
               </div>
             </div>
