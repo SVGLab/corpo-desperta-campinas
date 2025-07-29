@@ -25,7 +25,7 @@ const TestimonialsVideoSection = () => {
           {/* Terceiro vídeo */}
           <div className="relative">
             <div className="aspect-video rounded-lg overflow-hidden elegant-shadow">
-              <iframe src="https://www.youtube.com/embed/lEtYKTyKGN4" title="Depoimento de Cliente 3" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="w-full h-full"></iframe>
+              <iframe src="https://www.youtube.com/embed/MSN11XdawPE" title="Depoimento de Cliente 3" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen className="w-full h-full"></iframe>
             </div>
           </div>
           
