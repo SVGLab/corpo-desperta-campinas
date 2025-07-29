@@ -18,7 +18,7 @@ const ProofSection = () => {
                   variant="default" 
                   size="lg" 
                   className="mb-6 px-8 py-4 text-lg"
-                  onClick={() => window.open('https://api.whatsapp.com/send/?phone=%2B5532999171361&text=Oi!+Vi+que+a+Corpo+SA+chegou+em+Campinas!+Quero+agendar+minha+avalia%C3%A7%C3%A3o+gratuita', '_blank')}
+                  onClick={() => window.open('https://wa.me/5532999052295?text=Oi!%20Vi%20que%20a%20Corpo%20SA%20chegou%20em%20Campinas!%20Quero%20saber%20de%20tudo!', '_blank')}
                 >
                   QUERO FAZER PARTE
                 </Button>
