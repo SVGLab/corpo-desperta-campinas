@@ -4,7 +4,6 @@ import MethodSection from "@/components/MethodSection";
 
 import ResultsCarouselSection from "@/components/ResultsCarouselSection";
 import TestimonialsVideoSection from "@/components/TestimonialsVideoSection";
-import FinalCtaSection from "@/components/FinalCtaSection";
 import LocationSection from "@/components/LocationSection";
 import Footer from "@/components/Footer";
 
@@ -17,7 +16,6 @@ const Index = () => {
       <ResultsCarouselSection />
       <MethodSection />
       
-      <FinalCtaSection />
       <LocationSection />
       <Footer />
     </div>
