@@ -40,7 +40,7 @@ const MethodSection = () => {
                 {index === 0 && (
                   <div className="mt-4">
                     <img 
-                      src="/lovable-uploads/2b72531c-2a6e-4a80-b3a9-b162bbcb0440.png" 
+                      src="/lovable-uploads/c5155fcd-7e2b-47e4-b285-e09dd517e683.png" 
                       alt="Resultados na primeira sessão" 
                       className="w-full h-auto mx-auto rounded-lg"
                     />
