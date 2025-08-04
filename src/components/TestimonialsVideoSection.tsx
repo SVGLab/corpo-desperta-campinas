@@ -42,7 +42,7 @@ const TestimonialsVideoSection = () => {
             variant="default" 
             size="lg" 
             className="px-8 py-4 text-lg"
-            onClick={() => window.open('https://wa.me/5532991425579?text=Oi!%20Vi%20que%20a%20Corpo%20SA%20chegou%20em%20Campinas!%20Quero%20saber%20de%20tudo!', '_blank')}
+            onClick={() => window.open('https://wa.me/553299142579?text=Oi!%20Vi%20que%20a%20Corpo%20SA%20chegou%20em%20Campinas!%20Quero%20saber%20de%20tudo!', '_blank')}
           >
             TOQUE PARA DESPERTAR
           </Button>

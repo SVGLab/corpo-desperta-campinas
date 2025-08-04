@@ -62,7 +62,7 @@ const ResultsCarouselSection = () => {
             variant="default" 
             size="lg" 
             className="px-6 py-3 text-base"
-            onClick={() => window.open('https://wa.me/5532991425579?text=Oi!%20Vi%20que%20a%20Corpo%20SA%20chegou%20em%20Campinas!%20Quero%20saber%20de%20tudo!', '_blank')}
+            onClick={() => window.open('https://wa.me/553299142579?text=Oi!%20Vi%20que%20a%20Corpo%20SA%20chegou%20em%20Campinas!%20Quero%20saber%20de%20tudo!', '_blank')}
           >
             QUERO ESTA TRANSFORMAÇÃO
           </Button>

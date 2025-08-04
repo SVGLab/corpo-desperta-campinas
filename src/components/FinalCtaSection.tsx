@@ -19,7 +19,7 @@ const FinalCtaSection = () => {
           variant="outline" 
           size="lg" 
           className="mb-6 bg-primary-foreground text-primary border-primary-foreground hover:bg-primary-foreground/90"
-          onClick={() => window.open('https://wa.me/5532991425579?text=Oi!%20Vi%20que%20a%20Corpo%20SA%20chegou%20em%20Campinas!%20Quero%20saber%20de%20tudo!', '_blank')}
+          onClick={() => window.open('https://wa.me/553299142579?text=Oi!%20Vi%20que%20a%20Corpo%20SA%20chegou%20em%20Campinas!%20Quero%20saber%20de%20tudo!', '_blank')}
         >
           FALAR COM ESPECIALISTA AGORA
         </Button>
